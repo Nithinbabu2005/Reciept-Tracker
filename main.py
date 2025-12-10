@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 # ==============================================================================
 #  CONFIGURATION
 # ==============================================================================
-API_KEY = "AIzaSyDeIHyWT42bLMO1KtqGPQv0fdZpRn9rQ8k"
+API_KEY = "YOUR_API_KEY"
 CSV_FILE = "my_expenses.csv"
 # ==============================================================================
 
@@ -260,4 +260,5 @@ class ExpenseTrackerApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = ExpenseTrackerApp(root)
+
     root.mainloop()
